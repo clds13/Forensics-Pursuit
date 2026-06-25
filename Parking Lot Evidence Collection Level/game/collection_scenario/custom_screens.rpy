@@ -100,11 +100,44 @@ screen parking_lot_scene():
                 action Function(knife_route_to_procedure)
 
     elif parking_lot_directions[parking_lot_index] == "east":
-        use evidence_piece("bloodstain", "Bloodstain", 0.25, 0.955, 0.88, 0.42, 0.90, 0)
+        if not bloodstain_collected:
+            use evidence_piece(
+                "bloodstain",
+                "Bloodstain - Click to test",
+                0.25,
+                0.955,
+                0.88,
+                0.42,
+                0.90,
+                0,
+                click_action=Jump("bloodstain_collect"),
+            )
     elif parking_lot_directions[parking_lot_index] == "south":
-        use evidence_piece("ski_mask", "Ski Mask", 0.44, 0.94, 0.55, 0.60, 0.86, 10)
+        if not ski_mask_collected:
+            use evidence_piece(
+                "ski_mask",
+                "Ski Mask - Click to process",
+                0.44,
+                0.94,
+                0.55,
+                0.60,
+                0.86,
+                10,
+                click_action=Jump("ski_mask_collect"),
+            )
     elif parking_lot_directions[parking_lot_index] == "west":
-        use evidence_piece("abandoned_clothing", "Scattered Clothing", 0.58, 0.95, 0.84, 0.58, 0.82, -6)
+        if not abandoned_clothing_collected:
+            use evidence_piece(
+                "abandoned_clothing",
+                "Scattered Clothing - Click to package",
+                0.58,
+                0.95,
+                0.84,
+                0.58,
+                0.82,
+                -6,
+                click_action=Jump("abandoned_clothing_collect"),
+            )
 
     # A small compass hint so the player knows which way they are facing.
     frame:
