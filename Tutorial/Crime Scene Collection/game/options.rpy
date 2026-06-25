@@ -73,7 +73,7 @@ define config.mouse['evidence_markers'] = [('/images/evidence_markers_resized.pn
 define config.mouse['uv_light'] = [('/images/uv_light_resized.png', 0, 0)]
 define config.mouse['scalebar'] = [('/images/scalebar_resized.png', 0, 0)]
 define config.mouse['lifting_tape'] = [('/images/lifting_tape_resized.webp', 0, 0)]
-define config.mouse['tape_print_scalebar'] = [('/images/tape_print_scalebar_resized.webp', 0, 0)]
+define config.mouse['tape_print_scalebar'] = [('/images/tape_print_scalebar.webp', 0, 0)]
 
 """ define config.mouse_displayable = MouseDisplayable(
     'images/uv_light_resized.png', 0, 0).add("uv_light", 'images/uv_light_resized.png', 9.9, 9.9)
@@ -90,7 +90,7 @@ define config.mouse['tape_print_scalebar'] = [('/images/tape_print_scalebar_resi
     define config.mouse_displayable = MouseDisplayable(
     'images/lifting_tape_resized.png', 0, 0).add("lifting_tape", 'images/lifting_tape_resized.png', 9.9, 9.9)
     define config.mouse_displayable = MouseDisplayable(
-    'images/tape_print_scalebar_resized.png', 0, 0).add("tape_print_scalebar", 'images/tape_print_scalebar_resized.png', 9.9, 9.9) """
+    'images/tape_print_scalebar.png', 0, 0).add("tape_print_scalebar", 'images/tape_print_scalebar.png', 9.9, 9.9) """
 
 
 

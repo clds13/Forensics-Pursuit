@@ -7,7 +7,7 @@ define config.mouse['evidence_markers'] = [('/images/mouse/evidence_markers_resi
 define config.mouse['uv_light'] = [('/images/mouse/uv_light_resized.png', 0, 0)]
 define config.mouse['scalebar'] = [('/images/mouse/scalebar_resized.png', 0, 0)]
 define config.mouse['lifting_tape'] = [('/images/mouse/lifting_tape_resized.webp', 0, 0)]
-define config.mouse['tape_print_scalebar'] = [('/images/mouse/tape_print_scalebar_resized.webp', 0, 0)]
+define config.mouse['tape_print_scalebar'] = [('/images/mouse/tape_print_scalebar.webp', 0, 0)]
 define config.mouse['flattener'] = [('/images/mouse/flattener_resized.png', 0, 0)]
 define config.mouse['laminate'] = [('/images/mouse/laminate_resized.png', 0, 0)]
 

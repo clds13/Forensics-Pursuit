@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Methanol",
+        "image_name": "toolbox-ethanol",
+        "description": "Methanol. Added to a swab to make a dried bloodstain more adhesive so it transfers onto the swab.",
+        "usable": true,
+        "action": "knife_use_methanol"
+    },
+    {
+        "name": "Phenolphthalein",
+        "image_name": "toolbox-reagent",
+        "description": "Phenolphthalein reagent. Part of the Kastle-Meyer presumptive test for blood.",
+        "usable": true,
+        "action": "knife_use_phenol"
+    },
+    {
+        "name": "Hydrogen Peroxide",
+        "image_name": "toolbox-hydrogen_peroxide",
+        "description": "Hydrogen peroxide. The final reagent in the Kastle-Meyer test. A positive result turns the swab pink.",
+        "usable": true,
+        "action": "knife_use_peroxide"
+    },
+    {
+        "name": "Swab Pack",
+        "image_name": "toolbox-swab_pack",
+        "description": "A sterile, pre-moistened swab used to collect the dried bloodstain for packaging.",
+        "usable": true,
+        "action": "knife_use_swabpack"
+    },
+    {
+        "name": "Plastic Vial",
+        "image_name": "toolbox-tube",
+        "description": "A plastic vial / capsule the collection swab is placed into before bagging.",
+        "usable": true,
+        "action": "knife_use_vial"
+    },
+    {
+        "name": "Paper Evidence Bag",
+        "image_name": "toolbox-evidence_bag",
+        "description": "A paper evidence bag. Labelled with initials, time, location, case number and exhibit number.",
+        "usable": true,
+        "action": "knife_use_bag"
+    },
+    {
+        "name": "Tamper Evident Tape",
+        "image_name": "toolbox-tamper_evident_tape",
+        "description": "Tamper-evident tape used to seal the evidence bag so any tampering is visible.",
+        "usable": true,
+        "action": "knife_use_tape"
+    },
+    {
+        "name": "Magnetic Powder",
+        "image_name": "toolbox-magnetic_powder",
+        "description": "White/grey magnetic powder used to dust the knife handlebar for latent fingerprints. The powder reveals fingerprint ridges without affecting them.",
+        "usable": true,
+        "action": "knife_use_powder"
+    },
+    {
+        "name": "Fingerprint Scale",
+        "image_name": "toolbox-scalebar",
+        "description": "A reference scale placed next to the fingerprint during photography to show relative size and provide a size reference.",
+        "usable": true,
+        "action": "knife_use_scale"
+    },
+    {
+        "name": "Fingerprint Tape",
+        "image_name": "lifting_tape",
+        "description": "Clear lifting tape / gel lifter used to carefully lift the dusted fingerprint without damaging it.",
+        "usable": true,
+        "action": "knife_use_lifter"
+    },
+    {
+        "name": "Backing Card",
+        "image_name": "toolbox-backing_card",
+        "description": "A backing card used to mount and preserve the lifted fingerprint. Must be labelled with case information, initials, and directionality marker.",
+        "usable": true,
+        "action": "knife_use_backing_card"
+    }
+]
